@@ -18,12 +18,11 @@
   "main": "index.js",
   "type": "module",
   "devDependencies": {
-    "firebase-tools": "^13.0.1",
-    "nodemon": "^3.0.2"
+    "firebase-tools": "^13.0.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
